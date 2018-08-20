@@ -6,13 +6,17 @@ import { routing } from './app.routing';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { AlbumDetailComponent } from './album-detail/album-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    MarketplaceComponent,
+    AlbumDetailComponent
   ],
   imports: [
     BrowserModule,
